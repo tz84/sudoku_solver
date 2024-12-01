@@ -183,7 +183,7 @@ fun centerText(text: String, width: Int = 80): String {
 fun printBoard(board: Array<Array<Node>>) {
 
     // variables for centering output
-    val columns = board[0].size /
+    val columns = board[0].size 
     val boardWidth = columns * 2 - 1 
     val terminalWidth = 80 
     val padding = (terminalWidth - boardWidth) / 2
